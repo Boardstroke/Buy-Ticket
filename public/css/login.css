@@ -1,0 +1,85 @@
+.header{
+  position: relative;
+  width: 500px;
+  display: block;
+  margin: 80px auto;
+}
+.header h1, h4{
+  color: #FFF;
+  text-align: center;
+}
+body{
+  background-color: #E71D36;
+}
+.janela{
+  position: relative;
+  display: block;
+  margin: 0 auto;
+  padding: 30px;
+
+}
+.janela h1{
+  color: black;
+}
+ input{
+  display: block;
+  margin: 20px auto;
+  border: none;
+  padding:10px;
+  outline: none;
+  width: 300px;
+}
+input[type="name"],
+input[type="email"],
+input[type="password"]{
+  background-color:#FFFFF2;
+}
+.button{
+  position: relative;
+  display: block;
+  margin: 80px auto 0;
+  background-color: #E71D36;
+  border: none;
+  outline: none;
+  color: #FFFFF3;
+  width: 150px;
+  height: 50px;
+  border-radius: 35px;
+
+  transition: 0.2s linear;
+}
+
+hr{
+    max-width: 50px;
+    border-color: #E71D36;
+    border-width: 3px;
+}
+hr.white{
+  max-width: 50px;
+  border-color: #fff;
+  border-width: 3px;
+}
+input.button:hover{
+  background-color: rgba(231, 29, 54, 0.9);
+}
+.menu{
+  margin: 40px auto;
+  width: 60%;
+}
+.menu li{
+  list-style: none;
+  background-color: #FFFFF2;
+  display: block;
+  text-align: center;
+  cursor: pointer;
+}
+.menu li:nth-child(1){
+  border-bottom: 3px solid rgba(231, 29, 54, 0.5);
+}
+button{
+  border: none;
+  margin: 0px;
+  padding: 15px 30%;
+  background-color: #FFFFF2;
+  outline: none;
+}

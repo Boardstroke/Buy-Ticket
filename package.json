@@ -1,0 +1,22 @@
+{
+  "name": "buy-ticket",
+  "version": "1.0.0",
+  "description": "webapp para comprar ingressos para festa online",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Matheus Fachini",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.13.4",
+    "express-session": "^1.13.0",
+    "jade": "^1.11.0",
+    "mongodb": "^2.1.18",
+    "mongoose": "^4.5.2"
+  },
+  "engine": {
+    "node": "0.10.x"
+  }
+}

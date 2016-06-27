@@ -1,0 +1,25 @@
+doctype html
+html
+  head
+      link(rel='stylesheet', href='/static/css/bootstrap.css')
+      link(rel='stylesheet', href='/static/css/animate.css')
+      link(rel='stylesheet', href='/static/css/master.css')
+      link(rel="stylesheet", href="/static/css/font-awesome-4.6.3/css/font-awesome.min.css")
+     
+  body
+    include ./partials/_nav.jade
+    block content
+    
+    script(src='static/js/jquery.js')
+    script(src='static/js/bootstrap.js')
+    
+    if isDash
+      script(src='static/js/dash.js')
+      
+    elseif 
+      script(src='static/js/login.js') 
+      
+    elseif
+     script(src='static/js/master.js')
+    
+      

@@ -1,0 +1,62 @@
+{
+  "Paradise":{
+    "id": "01",
+    "nome": "Paradise",
+    "localizacao": "Caxias do Sul",
+    "img": "static/img/1.jpg" ,
+    "inf-add":{
+      "ingresso": 15,
+      "descricao" : "Uma festa de tirar o folego"
+  }
+},
+  "Eletromix":{
+    "id": "02",
+    "nome": "Eletromix",
+    "localizacao": "Caxias do Sul",
+    "img": "static/img/2.jpg" ,
+    "inf-add":{
+      "ingresso": 15,
+      "descricao" : "Uma festa de tirar o folego"
+  }
+  },
+  "Letronique":{
+    "id": "03",
+    "nome": "Letronique",
+    "localizacao": "Caxias do Sul",
+    "img": "static/img/3.jpg" ,
+    "inf-add":{
+      "ingresso": 15,
+      "descricao" : "Uma festa de tirar o folego"
+  }
+},
+"Fantastic":{
+  "id": "04",
+  "nome": "Fantastic",
+  "localizacao": "Caxias do Sul",
+  "img": "static/img/4.jpg" ,
+  "inf-add":{
+    "ingresso": 15,
+    "descricao" : "Uma festa de tirar o folego"
+}
+},
+"Spaceship":{
+  "id": "05",
+  "nome": "Spaceship",
+  "localizacao": "Caxias do Sul",
+  "img": "static/img/5.jpg" ,
+  "inf-add":{
+    "ingresso": 15,
+    "descricao" : "Uma festa de tirar o folego"
+}
+},
+"Universe":{
+  "id": "06",
+  "nome": "Universe",
+  "localizacao": "Caxias do Sul",
+  "img": "static/img/6.jpg" ,
+  "inf-add":{
+    "ingresso": 15,
+    "descricao" : "Uma festa de tirar o folego"
+}
+}
+}

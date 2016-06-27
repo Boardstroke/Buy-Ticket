@@ -1,0 +1,36 @@
+extends layout
+
+block content
+    link(href='static/css/login.css', rel='stylesheet')
+    
+    .container-fluid
+      .header
+        h1 Buy Ticket
+        hr.white
+        h4 O jeito mais fácil de comprar o seu ingresso
+      .menu
+        ul
+          li
+            button#btn-login Login 
+            .janela#login
+              h1 Faça o seu Login 
+              hr
+              h5 Entra aí, várias festas acontecendo
+              form(method="post" action='/signin')
+                input(type='name', placeholder='Email/Nome', name='lNome')
+                input(type='password', placeholder='Senha', name='lSenha')
+                input(type='submit', value='Entrar').button
+          
+          li
+            button#btn-cadastrar Cadastre-se
+            .janela#cadastro
+              h1 Cadastre-se
+              hr
+              h5 Crie sua conta e tenha completo acesso as nossos serviços  
+              form(method="post" action='/signup')
+                input(type='name', placeholder='Nome', name='cNome')
+                input(type='email', placeholder='Email', name='cEmail')
+                input(type='password', placeholder='Senha', name='cSenha')
+                input(type='submit', value='Cadastre-se').button
+          
+  

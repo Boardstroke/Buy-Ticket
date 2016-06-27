@@ -1,0 +1,34 @@
+extends layout
+block content
+
+  
+  section#portfolio.no-padding
+    .container-fluid.main-dash
+      h1.text-center Festas que vão rolar 
+      hr
+      form.text-center(name='filtro', action='' id='filtro')
+        select(name='regiao')
+          option(value='caxias') Caxias do sul
+          option(value='farroupilha') Farroupilha
+          option(value='bento') Bento Gonçalves
+          option(value='garibaldi') Garibaldi
+          option(value='barbosa') Carlos Barbosa
+          
+        select(name='valor')
+          option(value='15') R$ 15,00
+          option(value='30') R$ 30,00
+          option(value='80') R$ 80,00
+          option(value='150') R$ 150,00
+          option(value='tudo') Mais
+        button.button(type='input')
+      .row.no-gutter
+          each inf in db  
+            .col-lg-4.col-sm-6
+              a.portfolio-box(href='/dash/' + inf.nome)
+                  img.img-responsive(src=inf.img, alt=inf.caminho-img)                         
+                  .portfolio-box-caption
+                    .portfolio-box-caption-content
+                      .project-category.text-faded #{inf.localizacao}       
+                        .project-name #{inf.nome}        
+      
+      

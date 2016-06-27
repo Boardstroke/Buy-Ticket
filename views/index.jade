@@ -1,0 +1,68 @@
+extends layout
+
+block content  
+  header 
+    .header-content
+      .header-content-inner
+        h1 O jeito mais facil de encontrar a sua festa
+        hr
+        p Todas as festas que estão acontecendo agora em sua região em só lugar. É só entrar, escolher e ir, simples assim.
+        a.btn.btn-primary.btn-xl.page-scroll(href='/login') Cadastra-se agora!
+        
+  section.sobre.text-center#sobre
+    .container-fluid
+      h2.title Nós somos
+      hr.white
+      .container
+        .row
+          .col-xs-6.col-md-4.text-center
+            .box
+              i.fa.fa-4x.fa-envira.wow.bounceIn
+              h3 Confiaveis
+              p.discreto Garantimos que o serviço é funcional e sem erros, tudo para facilitar a sua vida.
+          .col-xs-6.col-md-4.text-center
+            .box
+              i.fa.fa-4x.fa-diamond.wow.bounceIn
+              h3 Disponiveis
+              p.discreto Nosso suporte funciona 24 horas por dia. Se qualquer coisa acontecer com seu ingresso é só entrar em contato.
+          .col-xs-6.col-md-4.text-center
+            .box
+              i.fa.fa-4x.fa-paper-plane.wow.bounceIn.text
+              h3 Acessiveis
+              p.discreto Você não precisa mais ficar correndo atrás de promoter ou lojas associadas, é só chegar aqui e pegar seu ingresso.
+  
+  section.servico#servico
+    .container-fluid
+      h2.text-center.title O que nós temos a lhe oferecer 
+      hr
+      .container
+        ul.dash
+          li.dash-item
+            .item.first-item
+              i.fa.fa-4x.fa-check
+            .descricao
+              p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          li.dash-item
+            .item.second-item
+              i.fa.fa-4x.fa-anchor
+            .descricao
+              p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.  
+          li.dash-item
+            .item.last-item
+              i.fa.fa-4x.fa-heart-o
+            .descricao
+              p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+  section.parceiro#parceiro
+    .container-fluid
+      h2.title.text-center Nossos parceiros
+      hr
+      h3.title.text-center Infelizmente nós ainda não temos parceiros fixos, porém se você quiser estar entre um deles entre em contato conosco. Nós ficariamos muito feliz em poder contar com você
+      a.btn.btn-primary.btn-xl.page-scroll(href'#contato') Contato
+        
+  section.contato#contato
+    .container-fluid
+      h2.title.text-center Entre em contato
+      hr
+      h3.float-left email: matheus.fachinis@gmail.com
+      h3.float-right telefone: (54) 81296581
