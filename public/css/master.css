@@ -357,9 +357,62 @@ ul.dash li.dash-item{
   background-repeat: no-repeat;
   background-position: center;
 }
-.teste{
+img.img-header-dash{
   position: relative;
-  width: 100px;
-  height: 100px;
-  background-color: red;
+  width: 100%;
+  max-height: 600px;
+  height: auto;
+  -webkit-filter: grayscale(100%);
+}
+.header-content-dash h1{
+  position: absolute;
+  color: #FFF;
+  top: 20%;
+  font-size: 5em;
+  margin: 10px 0 10px 50px;
+}
+.header-content-dash p{
+  position: absolute;
+  position: absolute;
+  color: #FFF;
+  top: 32%;
+  font-size: 1.5em;
+  margin: 10px 0 10px 50px;
+}
+.dash-party{
+  margin: 50px;
+}
+.descricao-completa p{
+  text-align: justify;
+}
+.inf-add{
+  display: block;
+  margin 0 auto;
+  position: relative;
+
+}
+.inf-add .pessoas, .inf-add .ingresso{
+  margin-top: 25px;
+}
+.inf-add i{
+  margin-left: 40px;
+}
+.inf-add h3{
+  background-color: #E71D36;
+  color: #FFF;
+  padding: 5px;
+  margin: 0;
+}
+.inf-add p{
+  background-color: #011627;
+  color: #FFF;
+  padding: 5px;
+  margin: 0;
+}
+
+button.btn-dash{
+  position: relative;
+  display: block;
+  margin: 0 auto;
+  outline: none;
 }

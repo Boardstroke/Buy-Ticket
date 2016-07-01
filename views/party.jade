@@ -1,3 +1,30 @@
 extends layout
 block content
-  h1 #{db.nome}
+  .header
+    img(src= db.img).img-header-dash
+    .header-content-dash
+      h1 #{db.nome}
+      p #{db['inf-add']['descricao']}
+  h2.text-center #{db.nome}
+  hr
+  .container-fluid
+    .row.dash-party
+      .col-md-6
+        .descricao-completa
+          p #{db['inf-add']['descricao-completa']}
+      .col-md-6
+        .inf-add
+          .pessoas
+            h3.text-center Galera confirmada
+            p.text-center #{db['inf-add']['pessoas']}
+              i.fa.fa-check
+          .ingresso
+            h3.text-center Ingresso
+            p.text-center  R$#{db['inf-add']['ingresso']},00
+              i.fa.fa-diamond
+    button.btn.btn-xl.btn-primary.btn-dash Comprar
+    
+    h2.text-center Como chegar?
+    hr
+              
+      

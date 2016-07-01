@@ -12,10 +12,8 @@ function posicao(obj){
 function scrollEfeito(obj, efeito) {
   var lugar = posicao(obj);
   $(window).scroll(() => {
-    if($window.scrollY >= lugar -450 && window.scrollY <= lugar + 500)
+    if($window.scrollY >= lugar -300)
       $(obj).show().addClass('animated ' + efeito);
-      else
-        $(obj).hide().removeClass('animated ' + efeito);
   });
 };
 
