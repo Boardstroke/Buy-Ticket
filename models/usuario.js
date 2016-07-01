@@ -1,11 +1,12 @@
-//Defindo o schema do db usuario
+var mongoose = require('mongoose');
+var Schema = mongoose.Schema;
+var ObjectId = Schema.ObjectId;
 
-function make(Schema, mongoose){
-  usuarioSchema = new Schema({
-    nome: String,
-    email: String,
-    password: String
-  });
-  mongoose.model('usuarios', usuarioSchema);
-};
-module.exports.make = make;
+var User = mongoose.Schema({
+  id: ObjectId,
+  nome: String,
+  email: {type: String, unique: true},
+  senha: String
+});
+
+module.exports = mongoose.model('User', User);

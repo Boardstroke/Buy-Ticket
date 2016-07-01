@@ -63,7 +63,7 @@ input.button:hover{
   background-color: rgba(231, 29, 54, 0.9);
 }
 .menu{
-  margin: 40px auto;
+  margin: auto;
   width: 60%;
 }
 .menu li{
@@ -71,7 +71,7 @@ input.button:hover{
   background-color: #FFFFF2;
   display: block;
   text-align: center;
-  cursor: pointer;
+
 }
 .menu li:nth-child(1){
   border-bottom: 3px solid rgba(231, 29, 54, 0.5);
@@ -82,4 +82,5 @@ button{
   padding: 15px 30%;
   background-color: #FFFFF2;
   outline: none;
+  cursor: pointer;
 }

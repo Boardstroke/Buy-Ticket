@@ -17,9 +17,10 @@ nav#mainNav.navbar.navbar-default.navbar-fixed-top
 							ul.nav.navbar-nav.navbar-right
 								if isDash
 									li
-										a(href='#') Sair
+										a(href='/logout') Sair
 									li
 										a(href='#') Ajuda
+								else if isLogin		
 								else
 									li
 										a(href='/login') Login
