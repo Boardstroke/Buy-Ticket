@@ -1265,30 +1265,31 @@ h6 .small,
 }
 h1,
 .h1 {
-  font-size: 36px;
+  font-size: 3em;
 }
 h2,
 .h2 {
-  font-size: 30px;
+  font-size: 2.5em;
 }
 h3,
 .h3 {
-  font-size: 24px;
+  font-size: 2.1em;
 }
 h4,
 .h4 {
-  font-size: 18px;
+  font-size: 2em;
 }
 h5,
 .h5 {
-  font-size: 14px;
+  font-size: 1.7em;
 }
 h6,
 .h6 {
-  font-size: 12px;
+  font-size: 1.5em;
 }
 p {
   margin: 0 0 10px;
+  font-size: 1em;
 }
 .lead {
   margin-bottom: 20px;

@@ -29,3 +29,14 @@ $(window).scroll(() =>{
     $($menu).css('background-color', 'rgba(255,255,255, 0)');
   }
 });
+
+// API Google maps
+
+function initMap() {
+  // Create a map object and specify the DOM element for display.
+  var map = new google.maps.Map(document.getElementById('map'), {
+    center: {lat: -34.397, lng: 150.644},
+    scrollwheel: false,
+    zoom: 8
+  });
+}
