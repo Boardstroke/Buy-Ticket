@@ -19,24 +19,3 @@ function scrollEfeito(obj, efeito) {
 
 scrollEfeito('.sobre i', 'bounceIn');
 scrollEfeito('.servico i', 'slideInLeft');
-
-$($menu).css('background-color', 'rgba(255,255,255, 0)');
-
-$(window).scroll(() =>{
-  if (posicao($menu)) {
-    $($menu).css('background-color', '#FDFFFC');
-  }else{
-    $($menu).css('background-color', 'rgba(255,255,255, 0)');
-  }
-});
-
-// API Google maps
-
-function initMap() {
-  // Create a map object and specify the DOM element for display.
-  var map = new google.maps.Map(document.getElementById('map'), {
-    center: {lat: -34.397, lng: 150.644},
-    scrollwheel: false,
-    zoom: 8
-  });
-}

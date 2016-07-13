@@ -31,7 +31,7 @@ app.use('/dash/static', express.static(path.join(__dirname, 'public')));
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(session({
   cookieName: 'session',
-  secret: 'blargadeeblfmioosdkfsdhjkfhsajkhsadhfjasdargblarg',
+  secret: 'blargadeefejwfgtg4blfmioosdkfsdhjkfhsajkhsadhfjasdargblarg',
   duration: 24 * 60 * 60 * 1000,
   activeDuration: 1000 * 60 * 5
 }));

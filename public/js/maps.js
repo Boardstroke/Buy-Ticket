@@ -1,4 +1,4 @@
-var key = "AIzaSyCcwX9E2mNT62CxVqpubP0Ga7ioTM0Wg3k";
+var key = "AIzaSyC031jowlTPcK7IXjuOfBV0h2bSaBaV3G4";
 var myLocation = {lat: -29.245670, lng: -51.356745};
 var destiny = {lat: -29.220816, lng:  -51.345769};
 
@@ -44,7 +44,7 @@ var directionsService = new google.maps.DirectionsService();
   function loadScript() {
   var script = document.createElement("script");
   script.type = "text/javascript";
-  script.src ="http://maps.googleapis.com/maps/api/js?key="+ key + "&callback=initialize";
+  script.src ="http://maps.googleapis.com/maps/api/js?key=" + key + "&callback=initialize";
 
   document.body.appendChild(script);
 }

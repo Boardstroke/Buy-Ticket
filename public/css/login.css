@@ -27,7 +27,7 @@ body{
   border: none;
   padding:10px;
   outline: none;
-  width: 300px;
+  width: 50%;
 }
 input[type="name"],
 input[type="email"],
@@ -64,7 +64,7 @@ input.button:hover{
 }
 .menu{
   margin: auto;
-  width: 60%;
+  width: 80%;
 }
 .menu li{
   list-style: none;

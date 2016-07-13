@@ -1,7 +1,6 @@
 extends layout
-
 block content  
-  header 
+  header.container-fluid 
     .header-content
       .header-content-inner
         h1 O jeito mais facil de encontrar a sua festa
@@ -10,59 +9,62 @@ block content
         a.btn.btn-primary.btn-xl.page-scroll(href='/login') Cadastra-se agora!
         
   section.sobre.text-center#sobre
-    .container-fluid
-      h2.title Nós somos
-      hr.white
-      .container-fluid
-        .row
-          .col-xs-12.col-md-4.text-center
-            .box
+    .container
+      .row
+        .col-lg-8.col-lg-offset-2.text-center
+          h2.title Nós somos
+          hr.white
+        .col-xs-12.col-md-4.text-center.box
               i.fa.fa-4x.fa-envira.wow.bounceIn
               h3 Confiaveis
               p.discreto Garantimos que o serviço é funcional e sem erros, tudo para facilitar a sua vida.
-          .col-xs-12.col-md-4.text-center
-            .box
+              
+        .col-xs-12.col-md-4.text-center.box
               i.fa.fa-4x.fa-diamond.wow.bounceIn
               h3 Disponiveis
               p.discreto Nosso suporte funciona 24 horas por dia. Se qualquer coisa acontecer com seu ingresso é só entrar em contato.
-          .col-xs-12.col-md-4.text-center
-            .box
+              
+        .col-xs-12.col-md-4.text-center.box
               i.fa.fa-4x.fa-paper-plane.wow.bounceIn.text
               h3 Acessiveis
               p.discreto Você não precisa mais ficar correndo atrás de promoter ou lojas associadas, é só chegar aqui e pegar seu ingresso.
   
   section.servico#servico
-    .container-fluid
-      h2.text-center.title O que nós temos a lhe oferecer 
-      hr
-      .container-fluid
-        ul.dash
-          li.dash-item
-            .item.first-item
-              i.fa.fa-4x.fa-check
-            .descricao
-              p Aqui é garantido que seu ingresso vai ser aprovado, sem ter nenhum um problema na hora de entrar na festa.
-          li.dash-item
-            .item.second-item
-              i.fa.fa-4x.fa-anchor
-            .descricao
-              p Se acontecer qualquer coisa com o seu celular e perder o ingresso, nosso serviço funciona na nuvem, então não se preocupe, você nunca vai perder o ingresso. 
-          li.dash-item
-            .item.last-item
-              i.fa.fa-4x.fa-heart-o
-            .descricao
-              p Estaremos sempre aqui pra de ajudar a encontrar a melhor festa da sua região em poucos cliques.
+    .container
+      .row
+        .col-lg-12
+          h2.text-center.title O que nós temos a lhe oferecer 
+          hr
+        .container
+          ul.dash
+            li.dash-item
+              .item.first-item
+                i.fa.fa-4x.fa-check
+              .descricao
+                p Aqui é garantido que seu ingresso vai ser aprovado, sem ter nenhum um problema na hora de entrar na festa.
+            li.dash-item
+              .item.second-item
+                i.fa.fa-4x.fa-anchor
+              .descricao
+                p Se acontecer qualquer coisa com o seu celular e perder o ingresso, nosso serviço funciona na nuvem, então não se preocupe, você nunca vai perder o ingresso. 
+            li.dash-item
+              .item.last-item
+                i.fa.fa-4x.fa-heart-o
+              .descricao
+                p Estaremos sempre aqui pra de ajudar a encontrar a melhor festa da sua região em poucos cliques.
 
   section.parceiro#parceiro
-    .container-fluid
+    .container
       h2.title.text-center Nossos parceiros
       hr
       h3.title.text-center Infelizmente nós ainda não temos parceiros fixos, porém se você quiser estar entre um deles entre em contato conosco. Nós ficariamos muito feliz em poder contar com você
       a.btn.btn-primary.btn-xl.page-scroll(href'#contato') Contato
         
   section.contato#contato
-    .container-fluid
-      h2.title.text-center Entre em contato
-      hr
-      h3.float-left email: matheus.fachinis@gmail.com
-      h3.float-right telefone: (54) 81296581
+    .container
+      .row
+        .col-lg-8.col-lg-offset-8
+          h2.title.text-center Entre em contato
+          hr
+          h3.float-left email: matheus.fachinis@gmail.com
+          h3.float-right telefone: (54) 81296581

@@ -20,9 +20,9 @@ router.get('/dash/:title?', function(req, res){
         if(title === undefined){
           res.status(503);
           res.render('dash', {db: list, isDash: true});
-          
+
         }else{
-          var festa = teste[title] || {};;
+          var festa = teste[title] || {};
           res.render('party', {db: festa, isDash: true, isParty: true});
         }
       }
